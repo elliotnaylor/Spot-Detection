@@ -1,0 +1,27 @@
+﻿  main.cpp
+c:\users\naynay\desktop\spot detection\opencv\main.cpp(59): warning C4244: 'initializing': conversion from '_Tp' to 'int', possible loss of data
+          with
+          [
+              _Tp=float
+          ]
+c:\users\naynay\desktop\spot detection\opencv\main.cpp(60): warning C4244: 'initializing': conversion from '_Tp' to 'int', possible loss of data
+          with
+          [
+              _Tp=float
+          ]
+c:\users\naynay\desktop\spot detection\opencv\main.cpp(62): warning C4244: 'initializing': conversion from '_Tp' to 'int', possible loss of data
+          with
+          [
+              _Tp=float
+          ]
+c:\users\naynay\desktop\spot detection\opencv\main.cpp(63): warning C4244: 'initializing': conversion from '_Tp' to 'int', possible loss of data
+          with
+          [
+              _Tp=float
+          ]
+c:\users\naynay\desktop\spot detection\opencv\main.cpp(180): warning C4244: 'argument': conversion from 'double' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=float
+          ]
+  OpenCV.vcxproj -> C:\Users\NayNay\Desktop\Spot detection\x64\Debug\OpenCV.exe
