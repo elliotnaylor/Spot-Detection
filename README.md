@@ -1,9 +1,9 @@
 # Spot-Detection
-# Introduction
+## Introduction
 Spots or acne are a skin condition that effects people of all ages and occurs when hair follicles become plugged with dead skin cells and oil. These are likely to appear on the face, chest upper back and shoulders, but can appear anywhere on the body. Acne is separated into multiple different types of spots in the form of whiteheads, blackheads and pimples. Out of these there is likely to be only enough data to detect pimples because their colour and shape are distinct compared to the others that would require specialised equipment or massive amounts of images to detect at a high accuracy. Acne is specifically triggered by stress, diet and hormones and as such the detection of this would allow for easier analysis of a person without seeing a doctor.
 
-# Method
-This is an algorithm designed for the detection of acne using thresholding, contours, and moments. 
+## Method
+This is an algorithm designed for the detection of acne using thresholding, contours, and moments. Firstly the image is gaussian blurred using an 11 by 11 kernel to remove smaller areas that are not of interest to the algorihtm, this improves processing speed and accuracy. The image is then converted to a gray scale
 
 ```
 //Cycles through different thresholds of the gray scaled image and locates blobs
@@ -27,12 +27,6 @@ for (int j = 0; j < contours.size(); j++) {
   mu[j] = moments(contours[j], true);
   mc[j] = Point2f(mu[j].m10 / mu[j].m00, mu[j].m01 / mu[j].m00);
 ```
-![image](https://user-images.githubusercontent.com/22525909/229362388-34847524-a697-4dae-b914-29342453a661.png)
+|![image](https://user-images.githubusercontent.com/22525909/229362388-34847524-a697-4dae-b914-29342453a661.png)|![image](https://user-images.githubusercontent.com/22525909/229362400-0945319f-e8e9-4722-ad85-7c02d4095b07.png)|![image](https://user-images.githubusercontent.com/22525909/229362482-d235364b-c9c1-4319-9209-45306c1b9d04.png)|![image](https://user-images.githubusercontent.com/22525909/229362413-25060d4f-3fe1-45ed-bf64-00aa6be7c4ba.png)|
 
-![image](https://user-images.githubusercontent.com/22525909/229362400-0945319f-e8e9-4722-ad85-7c02d4095b07.png)
-
-![image](https://user-images.githubusercontent.com/22525909/229362404-bc7bfc25-b73b-4460-8268-97ea8a74725c.png)
-
-![image](https://user-images.githubusercontent.com/22525909/229362413-25060d4f-3fe1-45ed-bf64-00aa6be7c4ba.png)
-
-
+## Conclusion
