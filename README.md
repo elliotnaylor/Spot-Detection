@@ -1,6 +1,5 @@
 # Spot-Detection
-## Introduction
-Spots or acne are a skin condition that effects people of all ages and occurs when hair follicles become plugged with dead skin cells and oil. These are likely to appear on the face, chest upper back and shoulders, but can appear anywhere on the body. Acne is separated into multiple different types of spots in the form of whiteheads, blackheads and pimples. Out of these there is likely to be only enough data to detect pimples because their colour and shape are distinct compared to the others that would require specialised equipment or massive amounts of images to detect at a high accuracy. Acne is specifically triggered by stress, diet and hormones and as such the detection of this would allow for easier analysis of a person without seeing a doctor.
+This was originally developed for a company looking to detect unhealthy skin using a number of computer vision algorithms. This was one of the decided upon techniques, which can be used to detect pimples and wrinkles. No machine learning techniques are used for this technique because of a lack of available data at the time of creation.
 
 ## Method
 This is an algorithm designed for the detection of acne using thresholding, contours, and moments. Firstly the image is gaussian blurred using an 11 by 11 kernel to remove smaller areas that are not of interest to the algorihtm, this improves processing speed and accuracy. The image is then converted to a gray scale
