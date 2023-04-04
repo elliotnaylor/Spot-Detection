@@ -1,8 +1,10 @@
 # Spot-Detection
 This was originally developed for a company looking to detect unhealthy skin using a number of computer vision algorithms. This was one of the decided upon techniques, which can be used to detect pimples and wrinkles. No machine learning techniques are used for this technique because of a lack of available data at the time of creation.
 
-## Method
-This is an algorithm designed for the detection of acne using thresholding, contours, and moments. Firstly the image is gaussian blurred using an 11 by 11 kernel to remove smaller areas that are not of interest to the algorihtm, this improves processing speed and accuracy. The image is then converted to a gray scale
+## Discussion
+This is an algorithm designed for the detection of acne using techniques including thresholding, contours, and moments. The algorithm is tested using the AGES dataset and gets an accuracy of 76.17%.
+
+Firstly the image is gaussian blurred using an 11 by 11 kernel to remove smaller areas that are not of interest to the algorihtm, this improves processing speed and accuracy. The image is then converted to a gray scale
 
 ```
 //Cycles through different thresholds of the gray scaled image and locates blobs
