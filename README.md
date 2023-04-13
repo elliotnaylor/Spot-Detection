@@ -33,5 +33,5 @@ for (int j = 0; j < contours.size(); j++) {
 
 The images below show the original image, contouring and the removal of areas until the final two pimples are located.
 
-|![image](https://user-images.githubusercontent.com/22525909/229362388-34847524-a697-4dae-b914-29342453a661.png)|![image](https://user-images.githubusercontent.com/22525909/229362400-0945319f-e8e9-4722-ad85-7c02d4095b07.png)|![image](https://user-images.githubusercontent.com/22525909/229362482-d235364b-c9c1-4319-9209-45306c1b9d04.png)|![image](https://user-images.githubusercontent.com/22525909/229362413-25060d4f-3fe1-45ed-bf64-00aa6be7c4ba.png)|
+![image](https://user-images.githubusercontent.com/22525909/229362388-34847524-a697-4dae-b914-29342453a661.png)  ![image](https://user-images.githubusercontent.com/22525909/229362400-0945319f-e8e9-4722-ad85-7c02d4095b07.png)  ![image](https://user-images.githubusercontent.com/22525909/229362482-d235364b-c9c1-4319-9209-45306c1b9d04.png)  ![image](https://user-images.githubusercontent.com/22525909/229362413-25060d4f-3fe1-45ed-bf64-00aa6be7c4ba.png)
 
